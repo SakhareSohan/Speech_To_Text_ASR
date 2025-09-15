@@ -1,0 +1,17 @@
+# environment.yml
+name: audio_project
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - transformers==4.42.3
+    - happytransformer==3.0.0
+    - soundfile==0.12.1
+    - librosa==0.10.2
+    - sentencepiece<0.2.0
